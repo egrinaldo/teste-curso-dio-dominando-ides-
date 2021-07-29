@@ -17,7 +17,7 @@ b = scan.nextInt();
 int soma = soma(a,b);
 int subtração = subtração(a,b);
 int multiplicacao = multiplicacao(a,b);
-int divisao = divisao(a,b);
+double divisao = divisao(a,b);
 
 System.out.println("soma " + soma);
 System.out.println("sub " + subtração);
@@ -34,7 +34,7 @@ public static int soma (int a,int b) {
 		return a - b;
 		
 	}
-	public static int divisao(int a, int b) {
+	public static double divisao(double a, double b) {
 		return a / b;
 		
 	}
